@@ -1,4 +1,5 @@
 ﻿using Assignment.First_Project;
+using Assignment.Second_Project;
 
 namespace Assignment
 {
@@ -28,6 +29,8 @@ namespace Assignment
         }
         static void Main()
         {
+
+            #region First Project
             #region 2
             //Point3D P = new (10,10,10);
             //Console.WriteLine(P.ToString());
@@ -83,7 +86,16 @@ namespace Assignment
             //Console.WriteLine("Cloned Point: " + p2); 
             #endregion
 
+            #endregion
 
+            #region Second Project
+            //Maths.X = 4;
+            //Maths.Y = 2;
+            //Console.WriteLine(Maths.Add());
+            //Console.WriteLine(Maths.Subtract());
+            //Console.WriteLine(Maths.Multiply());
+            //Console.WriteLine(Maths.Divide()); 
+            #endregion
         }
     }
 }
