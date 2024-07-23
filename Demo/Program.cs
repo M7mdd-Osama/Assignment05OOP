@@ -1,28 +1,29 @@
 ﻿using Demo.Abstraction;
 using Demo.Casting_Operator_Overloading;
 using Demo.Operator_Overloading;
+using Demo.Partial;
 
 namespace Demo
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             /// +
             ///int Result = 10 + 20;
             ///string Name = "Mohamed" + "Osama";
             #region Operator Overloading
-            Complex C1 = new Complex()
-            {
-                Real = 4,
-                Imag = 2,
-            };
-            Console.WriteLine(C1);
-            Complex C2 = new Complex()
-            {
-                Real = 44,
-                Imag = 2,
-            };
+            //Complex C1 = new Complex()
+            //{
+            //    Real = 4,
+            //    Imag = 2,
+            //};
+            //Console.WriteLine(C1);
+            //Complex C2 = new Complex()
+            //{
+            //    Real = 44,
+            //    Imag = 2,
+            //};
             //Console.WriteLine(C2);
             //Console.WriteLine("=====================");
 
@@ -74,7 +75,8 @@ namespace Demo
             //Console.WriteLine(circleArea); 
             #endregion
 
-
+            Employee employee = new ();
+            employee.Print();
         }
     }
 }
