@@ -50,6 +50,7 @@ namespace Demo
             //    Console.WriteLine("C1 < C2");
             #endregion
 
+            #endregion
             #region Casting Operators Overloading
 
             //object obj = 3;
@@ -67,11 +68,12 @@ namespace Demo
             //UserViewModel userViewModelodel = (UserViewModel)user;
 
             #endregion
-
+            #region Abstraction
             //Circle circle = new Circle(4);
             //decimal circleArea = circle.CalcArea();
-            //Console.WriteLine(circleArea);
+            //Console.WriteLine(circleArea); 
             #endregion
+
 
         }
     }
